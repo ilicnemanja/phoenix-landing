@@ -1,0 +1,97 @@
+.blog-section {
+  /* padding-top: 3rem; */
+}
+
+.blog-section h1.fw-bold {
+  font-size: 3.2rem;
+}
+
+.blog-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.blog-image {
+  width: 50%;
+  min-width: 300px;
+  max-width: 30rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.agile-wrapper{
+  width: 50%;
+}
+
+.agile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-image-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-section h2 {
+  margin-bottom: 1rem !important;
+}
+
+.list-label {
+  font-weight: 700;
+  color: #ff4e27 !important;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+a:hover {
+  color: #ff4e27;
+}
+
+.article-table {
+  margin: auto 5%;
+}
+
+.article-table td {
+  border-bottom: 1px solid #ddd;
+  padding: 5px;
+}
+
+#qa-lenses-2 {
+  width: 50%;
+  min-width: 300px;
+  max-width: 30rem;
+}
+
+.references > li {
+  padding-left: 5px;
+}
+
+article p {
+  text-align: justify;
+}
+
+.chatgpt-blog-image {
+  width: 100%;
+  max-width: 50rem;
+}
+
+@media screen and (max-width: 767px) {
+  .article-table {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1659px) {
+  .blog-image-container {
+    display: block;
+  }
+  .agile-wrapper {
+    width: 100%;
+  }
+}
